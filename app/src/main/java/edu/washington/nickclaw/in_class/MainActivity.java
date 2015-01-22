@@ -21,7 +21,7 @@ public class MainActivity extends ActionBarActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                button.setText("You have pushed me " + ++count + "time(s)");
+                button.setText("You have pushed me " + ++count + " time(s)");
             }
         });
     }
